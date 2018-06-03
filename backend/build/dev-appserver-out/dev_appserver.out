@@ -1,0 +1,23 @@
+Jun 03, 2018 12:21:39 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Jun 03, 2018 12:21:40 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Lior\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\Lior\Downloads\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2018-06-03 12:21:42.431:INFO::main: Logging initialized @3436ms
+Jun 03, 2018 9:21:43 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\Lior\Downloads\ud867-master\ud867-master\FinalProject) is not equal to your 
+web application root (C:\Users\Lior\Downloads\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2018-06-03 12:21:43.236:INFO:oejs.Server:main: jetty-9.3.18.v20170406
+2018-06-03 12:21:49.327:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=4950ms
+2018-06-03 12:21:49.837:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@2ad48653{/,file:///C:/Users/Lior/Downloads/ud867-master/ud867-master/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\Users\Lior\Downloads\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend}
+2018-06-03 12:21:49.858:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@4149c063{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-06-03 12:21:49.861:INFO:oejs.Server:main: Started @10866ms
+Jun 03, 2018 9:21:49 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Jun 03, 2018 9:21:49 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Jun 03, 2018 12:21:49 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Jun 03, 2018 12:25:01 PM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
